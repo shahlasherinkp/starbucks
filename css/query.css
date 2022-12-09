@@ -1,0 +1,170 @@
+@media (max-width: 88em) {
+  main {
+    margin: 0;
+  }
+}
+
+@media (max-width: 75em) {
+  html {
+    font-size: 9px;
+  }
+
+  .box-heading {
+    font-weight: 700;
+  }
+
+  .footer-head-container {
+    padding: 0.8rem 0;
+    cursor: pointer;
+  }
+
+  .footer-col {
+    padding: 0 2.4rem;
+  }
+
+  .heading-footer-noboot {
+    font-size: 2.4rem;
+  }
+
+  .footer-col ul {
+    display: none;
+  }
+
+  .footer-head-container i {
+    display: block;
+    font-size: 2.4rem;
+  }
+
+  .footer-nav-noboot.active {
+    display: block;
+  }
+
+  .footer-nav-noboot a:link,
+  .footer-nav-noboot a:visited {
+    font-size: 2rem;
+    display: inline-block;
+    padding: 0.8rem 0;
+    margin: 0 0 0.8rem;
+  }
+
+  .dropdown:hover {
+    background-color: rgba(119, 119, 119, 0.1);
+  }
+
+  .footer-head-container.active i {
+    transform: rotateZ(180deg);
+  }
+}
+
+@media (max-width: 62em) {
+  html {
+    font-size: 8px;
+  }
+
+  .box-heading {
+    font-size: 3.6rem;
+  }
+
+  .section-text {
+    font-size: 1.6rem;
+  }
+
+  .footer-terms {
+    flex-direction: column;
+    font-size: 1.8rem;
+  }
+
+  .footer-terms span {
+    display: none;
+  }
+
+  .social-links-noboot img {
+    width: 4rem;
+  }
+
+  .copyright {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 48em) {
+  .navbar-noboot .navbar-links-left,
+  .navbar-noboot .navbar-links-right {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .navbar-container-noboot {
+    justify-content: space-between;
+  }
+
+  .row-reverse {
+    flex-direction: column-reverse;
+  }
+
+  .section {
+    margin-bottom: 4.8rem;
+  }
+
+  .heading-footer-noboot,
+  .foot-head-container i {
+    font-size: 2.4rem;
+  }
+}
+
+@media (max-width: 48em) {
+  html {
+    font-size: 7px;
+    overflow-x: hidden;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .navbar-noboot {
+    padding: 1rem 2rem;
+  }
+
+  .logo-svg {
+    width: 6rem;
+  }
+
+  .hamburger {
+    margin-top: 3rem;
+  }
+
+  .mobile-menu {
+    top: 70px;
+  }
+
+  .btn-primary-noboot,
+  .btn-primary-noboot-light {
+    font-size: 2.2rem;
+  }
+
+  .box-text {
+    font-size: 2.2rem;
+    font-weight: 500;
+  }
+
+  .box-text-secondary {
+    font-size: 2rem;
+  }
+
+  .text p {
+    padding: 0 1rem;
+    font-size: 1.8rem;
+  }
+
+  .social-links-noboot {
+    gap: 1rem;
+  }
+
+  .copyright {
+    font-size: 1.8rem;
+  }
+}
